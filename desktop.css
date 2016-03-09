@@ -1,0 +1,451 @@
+@font-face {
+  font-family: 'DIN Alternate Bold';
+  src: url("DIN Alternate Bold.otf");
+}
+
+h1 {
+  font-family: 'DIN Alternate Bold';
+  z-index: 5;
+  position: relative;
+}
+
+p {
+  font-family: 'DIN Alternate Bold';
+  text-align: center;
+  padding-top: 14px;
+}
+
+html {
+  background: #b8eee9;
+}
+
+#svgcontainer {
+  position: relative;
+  margin: 0px auto;
+  display: block;
+  width: 100px;
+  height: 150px;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#cactus {
+  position: absolute;
+  bottom: 10%;
+}
+
+.bubble {
+position: relative;
+margin-left: -40px;
+width: 150px;
+height: 50px;
+padding: 0px;
+background: #FFFFFF;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+display: none;
+}
+
+.bubble:after {
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 10px 15px 10px 0;
+border-color: transparent #FFFFFF;
+display: block;
+width: 0;
+z-index: 1;
+left: -15px;
+top: 15px;
+}
+
+#svgcontainer.grow {
+  -moz-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+
+  -moz-transform-origin: 20%, 100%;
+  -webkit-transform-origin: 20% 100%;
+  transform-origin: 20% 100%;
+
+  -moz-transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+
+  -moz-transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+}
+
+#svgcontainer.growtwo {
+  -moz-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+
+  -moz-transform-origin: 20%, 100%;
+  -webkit-transform-origin: 20% 100%;
+  transform-origin: 20% 100%;
+
+  -moz-transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+
+  -moz-transform: scale(2, 2);
+  -webkit-transform: scale(2, 2);
+  transform: scale(2, 2);
+}
+
+#svgcontainer.growthree {
+  -moz-transform: scale(0, 0);
+  -webkit-transform: scale(0, 0);
+  transform: scale(0, 0);
+
+  -moz-transform-origin: 20%, 100%;
+  -webkit-transform-origin: 20% 100%;
+  transform-origin: 20% 100%;
+
+  -moz-transition: all 3s ease;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
+
+  -moz-transform: scale(2.5, 2.5);
+  -webkit-transform: scale(2.5, 2.5);
+  transform: scale(2.5, 2.5);
+}
+
+#hats {
+  position: absolute;
+  z-index: 7;
+  margin-top: -13px;
+  margin-left: -16px;
+}
+
+button {
+  font-family: 'DIN Alternate Bold';
+  letter-spacing: 1px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 90%;
+}
+
+#navigation {
+  position: relative;
+  margin-top: 50%;
+  z-index:5;
+}
+
+#water {
+  background: #86cdbb;
+}
+
+#light {
+  background: #fab047;
+}
+
+#surprise {
+  background: #f47f46;
+}
+
+#left {
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    z-index: 4;
+}
+
+#right {
+  position: absolute;
+  right: 25%;
+  z-index: 3;
+  top: 100px;
+} 
+
+#sun {
+  position: absolute;
+  top: 100px;
+  margin-left: 40%;
+  z-index: 2;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: .5s;
+}
+
+#hide {
+  height: 200px;
+  width: 500px;
+  background: #b8eee9;
+  position: absolute;
+  z-index: 1;
+  margin-left: 22%;
+}
+
+.raindrops {
+    top: 50px;
+    left:0px;
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    -webkit-transform:rotate(-45deg);
+    background: #3eb0b9;
+}
+
+#raincontainer {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+form {
+  width: 270px;
+  margin: 50% 0 50% 0;
+}
+
+input[type=text] {
+  font-family: 'DIN Alternate Bold';
+  height: 40px;
+  border: 0;
+  padding-left: 15px;
+  letter-spacing: 1px;
+  font-size: 90%;
+}
+
+input[type=submit] {
+  font-family: 'DIN Alternate Bold';
+  height: 40px;
+  border: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  letter-spacing: 1px;
+  background: black;
+  color: white;
+  font-size: 90%;
+}
+
+#share {
+  height: 40px;
+  width: 100%;
+  background: white;
+  font-family: 'DIN Alternate Bold';
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 0%;
+  margin-top: 25%;
+}
+
+#refresh {
+  height: 40px;
+  width: 40px;
+  border-radius: 0%;
+  background: black;
+  margin-top: 75%;
+  margin-left: 20px;
+}
+
+
+#tumbleweed {
+  position: absolute;
+  z-index:-1;
+  bottom: 10%;
+  -webkit-animation-duration: 15s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+
+#curve {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+  width: 100%;
+}
+
+#mobilecurve {
+  display: none;
+}
+
+html {
+  overflow: hidden;
+}
+
+
+/* ----------------- Start Grid for desktop screens ----------------- */
+
+@media (min-width: 750px) {
+
+.container {
+  position: relative;
+  width: 100%; /* max width of content */
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+  .column,
+  .columns {
+    margin-left: 4%; /* column gutter */
+    float: left;
+    box-sizing: border-box;
+    }    
+  
+  .column:first-child,
+  .columns:first-child {
+    margin-left: 0; } /* prevents first column from acquiring a gutter on its left: typography 101 */
+
+  .one.column,
+  .one.columns                    { width: 4.66666666667%; }
+  .two.columns                    { width: 13.3333333333%; }
+  .three.columns                  { width: 22%;            }
+  .four.columns                   { width: 30.6666666667%; }
+  .five.columns                   { width: 39.3333333333%; }
+  .six.columns                    { width: 48%;            }
+  .seven.columns                  { width: 56.6666666667%; }
+  .eight.columns                  { width: 65.3333333333%; }
+  .nine.columns                   { width: 74.0%;          }
+  .ten.columns                    { width: 82.6666666667%; }
+  .eleven.columns                 { width: 91.3333333333%; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
+
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
+
+  .one-half.column                { width: 48%; }
+
+
+  #navigation { /* Navigation bar for deskotp sizes */
+    width: 100px;
+    height: 340px;
+  }
+
+}
+/* ----------------- End Grid for desktop screens ----------------- */
+
+/* ----------------- Start Grid for mobile screens ----------------- */
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px; /* max width of content */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+/* ----------------- End Grid for mobile screens ----------------- */
+
+@media (min-width: 320px) and (max-width: 749px) {
+    .column,
+    .columns {
+      width: 48%;
+      margin-left: 4%; /* column gutter */
+      float: left;
+      box-sizing: border-box;
+    }
+
+  .column,.columns:nth-of-type(odd) {
+    margin-left: 0;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  #share {
+    display: none;
+  }
+
+  #water {
+    background: #86cdbb;
+  }
+
+  #light {
+    background: #fab047;
+  }
+
+  #surprise {
+    background: #f47f46;
+  }
+
+  #left {
+    width: 40%;
+    margin-top: 5%;
+    left: 15%;
+  }
+
+  #right {
+    width: 50%;
+    margin-top: 5%;
+    right: 15%;
+  }
+
+  #sun {
+    right: 40%;
+  }
+
+  #navigation { /* Navigation bar for mobile sizes */
+    width: 340px;
+    height: 100px;
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -170px;
+  }
+
+  .desktop_buttons {
+    float: left;
+    margin-left: 12px;
+  }
+
+  #svgcontainer {
+    position:relative;
+    margin-top: 60%;
+    margin-left: -25%;
+    z-index: 4;
+  }
+
+  #curve {
+    display: none;
+  }
+
+  #mobilecurve {
+    display: inherit;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+  }
+
+  #tumbleweed {
+    bottom: 25%;
+    z-index: 1;
+  }
+
+  #raincontainer {
+    height: 200%;
+    position: absolute;
+  }
+
+}
+
+/* ----------------- Misc Grid Commands ----------------- */
+
+/* Self Clearing Goodness: Fixes Issues with Rows Overlapping due to flow: left; */
+.container:after,
+.row:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
